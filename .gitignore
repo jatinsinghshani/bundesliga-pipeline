@@ -1,0 +1,8 @@
+# your secret token file, never upload this
+.env
+# downloaded data and local database files
+data/raw/*.json
+data/*.duckdb
+# python junk
+__pycache__/
+.venv/
